@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
     <title>Hoteles</title>
   </head>
   <body>
@@ -20,11 +21,11 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-          <li class="nav-item active"><a href="#" class="nav-link">Home</a></li>
+          <li class="nav-item active"><a class="nav-link">Home</a></li>
           <li class="nav-item"><a href="./about.html" class="nav-link">Nosotros</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Precio</a></li>
+          <li class="nav-item"><a href="./precios.html" class="nav-link">Precios</a></li>
           <li class="nav-item"><a href="#" class="nav-link">Términos y condiciones</a></li>
-          <li class="nav-item"><a href="#" class="nav-link">Contacto</a></li>
+          <li class="nav-item"><a href="./contacto.html" class="nav-link">Contacto</a></li>
         </ul>
       </div>
     </nav>
@@ -104,7 +105,8 @@
           <h4>Hotel San Pablo</h4>
           <p>Hotel ubicado en pleno centro.</p>
           <div>
-            <button class="btn btn-primary btn-reserva">Reservar</button>
+            <button class="btn btn-primary btn-reserva">
+              <span class="oi oi-plus"> Reservar</span></button>
           </div>
         </div>
       </div>
@@ -113,23 +115,24 @@
     <footer>
       <div class="row">
         <div class="col-sm-4 d-flex flex-column">
-          <a href="http://www.facebook.com">Facebook</a>
+          <a href="http://www.facebook.com"><span class="">Facebook</span></a>
           <a href="http://www.twitter.com">Twitter</a>
           <a href="http://www.instagram.com">Instagram</a>
           <a href="http://www.google.com">Google+</a>
         </div>
         <div class="col-sm-4 d-flex flex-column">
           <address>
-            Tucuman 834, CABA, Argentina
-            +549111234567
-            contacto@guiahoteles.com
+            <h3>Oficina central</h3>
+            <p><span class="oi oi-home footer-address-icon"> Bogotá, Colombia</span></p>
+            <p><span class="oi oi-phone footer-address-icon"> +57 3142617000</span></p>
+            <p><span class="oi oi-inbox footer-address-icon"> contacto@guiahoteles.com</span></p>
           </address>
         </div>
         <div class="col-sm-4 d-flex flex-column align-items-end">
-          <a href="http://www.facebook.com">Nosotros</a>
-          <a href="http://www.twitter.com">Precios</a>
-          <a href="http://www.instagram.com">Terminos y condiciones</a>
-          <a href="http://www.google.com">Contacto</a>
+          <a href="./about.html">Nosotros</a>
+          <a href="#">Precios</a>
+          <a href="#">Terminos y condiciones</a>
+          <a href="./contacto.html">Contacto</a>
         </div>
       </div>
     </footer>
